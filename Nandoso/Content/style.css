@@ -1,0 +1,11 @@
+﻿body {
+}
+/*select all the td elements in table body through child-selection*/
+.spaced-table > tbody > tr > td {
+    padding-left: 20px;
+}
+/*select all the th elements in table head through child-selection*/
+.spaced-table > thead > tr > th {
+    padding-left: 40px;
+
+}
